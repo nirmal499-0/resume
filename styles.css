@@ -17,6 +17,9 @@
         /* font-size: small; */
         line-height: 1 !important;
     }
+    .head{
+        line-height: 1 !important;
+    }
 }
 *{
     /* margin-top: 25px;

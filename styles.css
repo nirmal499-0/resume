@@ -19,7 +19,33 @@
     }
     .head{
         line-height: 1 !important;
+        flex-direction: column-reverse !important;
     }
+    .myPic{
+        height: 220px !important;
+    }
+    .exp-li{
+        line-height: 1.2; 
+        list-style:disc;
+        padding-left: 13px;
+    }
+    h2{
+        font-size: 35px !important;
+    }
+    h1{
+        font-size: 20px !important;
+    }
+}
+.head-role{
+    font-size: 30px;
+}
+.head-name{
+    font-weight: 600;
+    font-size: 50px;
+}
+.exp-li{
+    line-height: 1.2; 
+    list-style:disc;
 }
 *{
     /* margin-top: 25px;
@@ -39,12 +65,10 @@
 ul{
     list-style: none;
 }
-/* .edu{
-    line-height: 1;
-} */
 .head{
     display: flex;
     min-width: 95%;
+    flex-direction: row;
     justify-content: space-between;
     padding-left: 5%;
     line-height: 0.5;
@@ -74,3 +98,6 @@ hr.rounded {
     /* border: dashed;
     border-width: 4px; */
 }
+/* .myPic{
+    border-radius: 80%;
+} */

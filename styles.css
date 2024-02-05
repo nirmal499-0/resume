@@ -38,6 +38,9 @@
     .main-container{
         margin: 10px;
     }
+    .head-title{
+        line-height:10px
+    }
 }
 .head-role{
     font-size: 30px;

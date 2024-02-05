@@ -41,6 +41,9 @@
     .head-title{
         line-height:10px
     }
+    .links-li li{
+        padding: 4px;
+    }
 }
 .head-role{
     font-size: 30px;
